@@ -29,3 +29,30 @@ if __name__ == '__main__':
         print ("Element is present at index % d" % result) 
     else: 
         print ("Element is not present in array") 
+
+          OR
+          
+def binsearch(l,n,num):
+     beg=0
+     end=n-1
+     
+     if beg<=end:
+          mid=(beg+end)//2
+          
+          if l[mid]==num:
+               
+               return 1
+          elif:
+               return 0
+          
+
+l = [ 2, 4, 6, 8, 10] 
+num = 10
+n=len(l)
+
+    result = binsearch(l,n,num) 
+
+    if result == 1: 
+        print ("Element is present) 
+    else: 
+        print ("Element is not present") 
